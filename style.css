@@ -91,7 +91,7 @@ body {
     padding: 8px;
   }
   
-  /* Main content - ИСПРАВЛЕНО */
+  /* Main content */
   .main-content {
     display: flex;
     justify-content: center;
@@ -103,7 +103,7 @@ body {
     width: 100%;
   }
   
-  /* Welcome text - ИСПРАВЛЕНО */
+  /* Welcome text*/
   .welcome-text {
     background-color: #F5F5F5;
     border-radius: 28px;
@@ -183,7 +183,7 @@ body {
     line-height: 1.4;
   }
   
-  /* Skills - ИСПРАВЛЕНО */
+  /* Skills */
   .skills-banner {
     margin-top: 0;
     padding: 25px;

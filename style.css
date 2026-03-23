@@ -1,0 +1,212 @@
+
+body {
+    background-color: #C6DCFF;
+    font: 24px "calibri", "Segoe UI", sans-serif;
+    font-weight: bold;
+    margin: 0;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Основной контейнер */
+  .main {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    padding: 30px;
+  }
+  
+  /* Боковая панель */
+  .sidebar {
+    flex-grow: 1;
+    background-color: #2C3E66;
+    border-radius: 28px;
+    padding: 30px 20px;
+    color: #FFFFFF;
+  }
+  
+  .sidebar-brand {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FFB347;
+    margin-bottom: 25px;
+  }
+  
+  .sidebar-brand h2 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+    color: #FFB347;
+  }
+  
+  .sidebar-item {
+    margin: 20px 0;
+    padding: 12px 16px;
+    background-color: #3A4A6E;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .sidebar-icon {
+    font-size: 18px;
+    font-weight: normal;
+    min-width: 90px;
+    color: #FFB347;
+  }
+  
+  .sidebar-text {
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFFFFF;
+  }
+  
+  .sidebar-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #5A6E8A;
+  }
+  
+  .social-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #3A4A6E;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  /* Основной контент */
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex: 3;
+  }
+  
+  /* Приветственный текст */
+  .welcome-text {
+    background-color: #F5F5F5;
+    border-radius: 28px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .welcome-text h1 {
+    font-size: 28px;
+    color: #2C3E66;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+  }
+  
+  .welcome-text p {
+    font-size: 16px;
+    color: #5A6E8A;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Карточки */
+  .card {
+    background-color: #FFFFFF;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 512 / 768;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .card-text-field {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .card-text {
+    margin: 0;
+    font-size: 14px;
+    color: #999999;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .card-main-text {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #2C3E66;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #AAAAAA;
+    text-align: center;
+    margin-top: 4px;
+    font-weight: normal;
+    line-height: 1.4;
+  }
+  
+  /* Блок с навыками */
+  .skills-banner {
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #F5F5F5;
+    border-radius: 24px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .skills-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2C3E66;
+    margin-bottom: 15px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .skill-tag {
+    background-color: #E8E8E8;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #2C3E66;
+  }

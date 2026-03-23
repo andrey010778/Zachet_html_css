@@ -1,4 +1,3 @@
-
 body {
     background-color: #C6DCFF;
     font: 24px "calibri", "Segoe UI", sans-serif;
@@ -19,6 +18,7 @@ body {
     background-color: #FFFFFF;
     border-radius: 32px;
     padding: 30px;
+    box-sizing: border-box;
   }
   
   /* Sidebar */
@@ -91,24 +91,26 @@ body {
     padding: 8px;
   }
   
-  /* Main content */
+  /* Main content - ИСПРАВЛЕНО */
   .main-content {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 30px;
     flex: 3;
+    min-width: 0;
+    box-sizing: border-box;
+    width: 100%;
   }
   
-  /* Welcome text */
+  /* Welcome text - ИСПРАВЛЕНО */
   .welcome-text {
     background-color: #F5F5F5;
     border-radius: 28px;
     padding: 20px;
-    margin-bottom: 20px;
     text-align: center;
     width: 100%;
+    box-sizing: border-box;
   }
   
   .welcome-text h1 {
@@ -128,12 +130,14 @@ body {
   /* Cards */
   .card {
     background-color: #FFFFFF;
-    width: 320px;
+    width: 100%;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     border-radius: 24px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     overflow: hidden;
+    box-sizing: border-box;
   }
   
   .card-img {
@@ -150,6 +154,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+    box-sizing: border-box;
   }
   
   .card-text {
@@ -178,14 +183,15 @@ body {
     line-height: 1.4;
   }
   
-  /* Skills*/
+  /* Skills - ИСПРАВЛЕНО */
   .skills-banner {
-    margin-top: 40px;
+    margin-top: 0;
     padding: 25px;
     background-color: #F5F5F5;
     border-radius: 24px;
     text-align: center;
     width: 100%;
+    box-sizing: border-box;
   }
   
   .skills-title {
@@ -210,3 +216,65 @@ body {
     font-weight: normal;
     color: #2C3E66;
   }
+
+/*Voting
+
+  
+.voting {
+    margin-top: 0;
+    padding: 25px;
+    background-color: #F5F5F5;
+    border-radius: 24px;
+    width: 100%;
+  }
+  
+  .voting-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2C3E66;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .voting-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .voting-tag {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #2C3E66;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 12px;
+    transition: background-color 0.2s;
+  }
+  
+ 
+  .voting-tag input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #FFB347;
+  }
+  
+  .vote-submit {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #FFB347;
+    color: #2C3E66;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  */

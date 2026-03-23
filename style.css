@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
   }
   
-  /* Основной контейнер */
+  /* Main */
   .main {
     display: flex;
     justify-content: space-between;
@@ -21,7 +21,7 @@ body {
     padding: 30px;
   }
   
-  /* Боковая панель */
+  /* Sidebar */
   .sidebar {
     flex-grow: 1;
     background-color: #2C3E66;
@@ -91,7 +91,7 @@ body {
     padding: 8px;
   }
   
-  /* Основной контент */
+  /* Main content */
   .main-content {
     display: flex;
     justify-content: center;
@@ -101,7 +101,7 @@ body {
     flex: 3;
   }
   
-  /* Приветственный текст */
+  /* Welcome text */
   .welcome-text {
     background-color: #F5F5F5;
     border-radius: 28px;
@@ -125,7 +125,7 @@ body {
     margin: 0;
   }
   
-  /* Карточки */
+  /* Cards */
   .card {
     background-color: #FFFFFF;
     width: 320px;
@@ -178,7 +178,7 @@ body {
     line-height: 1.4;
   }
   
-  /* Блок с навыками */
+  /* Skills*/
   .skills-banner {
     margin-top: 40px;
     padding: 25px;
